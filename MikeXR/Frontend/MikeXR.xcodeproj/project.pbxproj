@@ -1,0 +1,500 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FC9B0F572BA43F2E001F38DA /* RealityKitContent in Frameworks */ = {isa = PBXBuildFile; productRef = FC9B0F562BA43F2E001F38DA /* RealityKitContent */; };
+		FC9B0F592BA43F2E001F38DA /* MikeXRApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC9B0F582BA43F2E001F38DA /* MikeXRApp.swift */; };
+		FC9B0F5B2BA43F2E001F38DA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC9B0F5A2BA43F2E001F38DA /* ContentView.swift */; };
+		FC9B0F5D2BA43F2E001F38DA /* ImmersiveView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC9B0F5C2BA43F2E001F38DA /* ImmersiveView.swift */; };
+		FC9B0F5F2BA43F2F001F38DA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FC9B0F5E2BA43F2F001F38DA /* Assets.xcassets */; };
+		FC9B0F622BA43F2F001F38DA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FC9B0F612BA43F2F001F38DA /* Preview Assets.xcassets */; };
+		FC9B0F6D2BA43F2F001F38DA /* MikeXRTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC9B0F6C2BA43F2F001F38DA /* MikeXRTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FC9B0F692BA43F2F001F38DA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FC9B0F492BA43F2E001F38DA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FC9B0F502BA43F2E001F38DA;
+			remoteInfo = MikeXR;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FC9B0F512BA43F2E001F38DA /* MikeXR.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MikeXR.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC9B0F552BA43F2E001F38DA /* RealityKitContent */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = RealityKitContent; sourceTree = "<group>"; };
+		FC9B0F582BA43F2E001F38DA /* MikeXRApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MikeXRApp.swift; sourceTree = "<group>"; };
+		FC9B0F5A2BA43F2E001F38DA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		FC9B0F5C2BA43F2E001F38DA /* ImmersiveView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImmersiveView.swift; sourceTree = "<group>"; };
+		FC9B0F5E2BA43F2F001F38DA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FC9B0F612BA43F2F001F38DA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		FC9B0F632BA43F2F001F38DA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FC9B0F682BA43F2F001F38DA /* MikeXRTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MikeXRTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC9B0F6C2BA43F2F001F38DA /* MikeXRTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MikeXRTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FC9B0F4E2BA43F2E001F38DA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC9B0F572BA43F2E001F38DA /* RealityKitContent in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC9B0F652BA43F2F001F38DA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FC9B0F482BA43F2E001F38DA = {
+			isa = PBXGroup;
+			children = (
+				FC9B0F532BA43F2E001F38DA /* MikeXR */,
+				FC9B0F542BA43F2E001F38DA /* Packages */,
+				FC9B0F6B2BA43F2F001F38DA /* MikeXRTests */,
+				FC9B0F522BA43F2E001F38DA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FC9B0F522BA43F2E001F38DA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FC9B0F512BA43F2E001F38DA /* MikeXR.app */,
+				FC9B0F682BA43F2F001F38DA /* MikeXRTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FC9B0F532BA43F2E001F38DA /* MikeXR */ = {
+			isa = PBXGroup;
+			children = (
+				FC9B0F582BA43F2E001F38DA /* MikeXRApp.swift */,
+				FC9B0F5A2BA43F2E001F38DA /* ContentView.swift */,
+				FC9B0F5C2BA43F2E001F38DA /* ImmersiveView.swift */,
+				FC9B0F5E2BA43F2F001F38DA /* Assets.xcassets */,
+				FC9B0F632BA43F2F001F38DA /* Info.plist */,
+				FC9B0F602BA43F2F001F38DA /* Preview Content */,
+			);
+			path = MikeXR;
+			sourceTree = "<group>";
+		};
+		FC9B0F542BA43F2E001F38DA /* Packages */ = {
+			isa = PBXGroup;
+			children = (
+				FC9B0F552BA43F2E001F38DA /* RealityKitContent */,
+			);
+			path = Packages;
+			sourceTree = "<group>";
+		};
+		FC9B0F602BA43F2F001F38DA /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				FC9B0F612BA43F2F001F38DA /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		FC9B0F6B2BA43F2F001F38DA /* MikeXRTests */ = {
+			isa = PBXGroup;
+			children = (
+				FC9B0F6C2BA43F2F001F38DA /* MikeXRTests.swift */,
+			);
+			path = MikeXRTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FC9B0F502BA43F2E001F38DA /* MikeXR */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FC9B0F702BA43F2F001F38DA /* Build configuration list for PBXNativeTarget "MikeXR" */;
+			buildPhases = (
+				FC9B0F4D2BA43F2E001F38DA /* Sources */,
+				FC9B0F4E2BA43F2E001F38DA /* Frameworks */,
+				FC9B0F4F2BA43F2E001F38DA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MikeXR;
+			packageProductDependencies = (
+				FC9B0F562BA43F2E001F38DA /* RealityKitContent */,
+			);
+			productName = MikeXR;
+			productReference = FC9B0F512BA43F2E001F38DA /* MikeXR.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FC9B0F672BA43F2F001F38DA /* MikeXRTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FC9B0F732BA43F2F001F38DA /* Build configuration list for PBXNativeTarget "MikeXRTests" */;
+			buildPhases = (
+				FC9B0F642BA43F2F001F38DA /* Sources */,
+				FC9B0F652BA43F2F001F38DA /* Frameworks */,
+				FC9B0F662BA43F2F001F38DA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FC9B0F6A2BA43F2F001F38DA /* PBXTargetDependency */,
+			);
+			name = MikeXRTests;
+			productName = MikeXRTests;
+			productReference = FC9B0F682BA43F2F001F38DA /* MikeXRTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FC9B0F492BA43F2E001F38DA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1530;
+				LastUpgradeCheck = 1530;
+				TargetAttributes = {
+					FC9B0F502BA43F2E001F38DA = {
+						CreatedOnToolsVersion = 15.3;
+					};
+					FC9B0F672BA43F2F001F38DA = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = FC9B0F502BA43F2E001F38DA;
+					};
+				};
+			};
+			buildConfigurationList = FC9B0F4C2BA43F2E001F38DA /* Build configuration list for PBXProject "MikeXR" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FC9B0F482BA43F2E001F38DA;
+			productRefGroup = FC9B0F522BA43F2E001F38DA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FC9B0F502BA43F2E001F38DA /* MikeXR */,
+				FC9B0F672BA43F2F001F38DA /* MikeXRTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FC9B0F4F2BA43F2E001F38DA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC9B0F622BA43F2F001F38DA /* Preview Assets.xcassets in Resources */,
+				FC9B0F5F2BA43F2F001F38DA /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC9B0F662BA43F2F001F38DA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FC9B0F4D2BA43F2E001F38DA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC9B0F5B2BA43F2E001F38DA /* ContentView.swift in Sources */,
+				FC9B0F592BA43F2E001F38DA /* MikeXRApp.swift in Sources */,
+				FC9B0F5D2BA43F2E001F38DA /* ImmersiveView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC9B0F642BA43F2F001F38DA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC9B0F6D2BA43F2F001F38DA /* MikeXRTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FC9B0F6A2BA43F2F001F38DA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FC9B0F502BA43F2E001F38DA /* MikeXR */;
+			targetProxy = FC9B0F692BA43F2F001F38DA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		FC9B0F6E2BA43F2F001F38DA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = xros;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				XROS_DEPLOYMENT_TARGET = 1.1;
+			};
+			name = Debug;
+		};
+		FC9B0F6F2BA43F2F001F38DA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = xros;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+				XROS_DEPLOYMENT_TARGET = 1.1;
+			};
+			name = Release;
+		};
+		FC9B0F712BA43F2F001F38DA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"MikeXR/Preview Content\"";
+				DEVELOPMENT_TEAM = 7PUR26GQTZ;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "$(TARGET_NAME)/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = io.EashanSinha.MikeXR;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "xros xrsimulator";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,7";
+				XROS_DEPLOYMENT_TARGET = 1.0;
+			};
+			name = Debug;
+		};
+		FC9B0F722BA43F2F001F38DA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"MikeXR/Preview Content\"";
+				DEVELOPMENT_TEAM = 7PUR26GQTZ;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "$(TARGET_NAME)/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = io.EashanSinha.MikeXR;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "xros xrsimulator";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,7";
+				XROS_DEPLOYMENT_TARGET = 1.0;
+			};
+			name = Release;
+		};
+		FC9B0F742BA43F2F001F38DA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7PUR26GQTZ;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = io.EashanSinha.MikeXRTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "xros xrsimulator";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,7";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MikeXR.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MikeXR";
+				XROS_DEPLOYMENT_TARGET = 1.1;
+			};
+			name = Debug;
+		};
+		FC9B0F752BA43F2F001F38DA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7PUR26GQTZ;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = io.EashanSinha.MikeXRTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "xros xrsimulator";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,7";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MikeXR.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MikeXR";
+				XROS_DEPLOYMENT_TARGET = 1.1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FC9B0F4C2BA43F2E001F38DA /* Build configuration list for PBXProject "MikeXR" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC9B0F6E2BA43F2F001F38DA /* Debug */,
+				FC9B0F6F2BA43F2F001F38DA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FC9B0F702BA43F2F001F38DA /* Build configuration list for PBXNativeTarget "MikeXR" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC9B0F712BA43F2F001F38DA /* Debug */,
+				FC9B0F722BA43F2F001F38DA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FC9B0F732BA43F2F001F38DA /* Build configuration list for PBXNativeTarget "MikeXRTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC9B0F742BA43F2F001F38DA /* Debug */,
+				FC9B0F752BA43F2F001F38DA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		FC9B0F562BA43F2E001F38DA /* RealityKitContent */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = RealityKitContent;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = FC9B0F492BA43F2E001F38DA /* Project object */;
+}
