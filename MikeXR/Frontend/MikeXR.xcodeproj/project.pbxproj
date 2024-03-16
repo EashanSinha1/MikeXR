@@ -14,6 +14,7 @@
 		FC9B0F5F2BA43F2F001F38DA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FC9B0F5E2BA43F2F001F38DA /* Assets.xcassets */; };
 		FC9B0F622BA43F2F001F38DA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FC9B0F612BA43F2F001F38DA /* Preview Assets.xcassets */; };
 		FC9B0F6D2BA43F2F001F38DA /* MikeXRTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC9B0F6C2BA43F2F001F38DA /* MikeXRTests.swift */; };
+		FC9B0F772BA50625001F38DA /* SignInRegisterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC9B0F762BA50625001F38DA /* SignInRegisterView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,6 +38,7 @@
 		FC9B0F632BA43F2F001F38DA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FC9B0F682BA43F2F001F38DA /* MikeXRTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MikeXRTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FC9B0F6C2BA43F2F001F38DA /* MikeXRTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MikeXRTests.swift; sourceTree = "<group>"; };
+		FC9B0F762BA50625001F38DA /* SignInRegisterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInRegisterView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +84,7 @@
 			children = (
 				FC9B0F582BA43F2E001F38DA /* MikeXRApp.swift */,
 				FC9B0F5A2BA43F2E001F38DA /* ContentView.swift */,
+				FC9B0F762BA50625001F38DA /* SignInRegisterView.swift */,
 				FC9B0F5C2BA43F2E001F38DA /* ImmersiveView.swift */,
 				FC9B0F5E2BA43F2F001F38DA /* Assets.xcassets */,
 				FC9B0F632BA43F2F001F38DA /* Info.plist */,
@@ -220,6 +223,7 @@
 				FC9B0F5B2BA43F2E001F38DA /* ContentView.swift in Sources */,
 				FC9B0F592BA43F2E001F38DA /* MikeXRApp.swift in Sources */,
 				FC9B0F5D2BA43F2E001F38DA /* ImmersiveView.swift in Sources */,
+				FC9B0F772BA50625001F38DA /* SignInRegisterView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
